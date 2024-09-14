@@ -1,8 +1,3 @@
 INDEX VERSION 1.134+C:\Users\ASUS\Documents\GitHub\B23DCCC121_NguyenHuuNam_OOPJava\B23DCCC121_NguyenHuuNam_OOPJava\.metadata\.plugins\org.eclipse.jdt.core
-2016457984.index
-62046750.index
 864524013.index
-1088177006.index
 1865797976.index
-3959137331.index
-2787652770.index
