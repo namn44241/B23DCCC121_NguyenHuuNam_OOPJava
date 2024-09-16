@@ -1,6 +1,6 @@
-package baitap9th9;
+package Bai_tap_9th9;
 
-public class Bai_1 {
+public class Bai_tap_9th9 {
 	public static boolean soTuNhien(String str) {
         try {
             int giatri = Integer.parseInt(str);
