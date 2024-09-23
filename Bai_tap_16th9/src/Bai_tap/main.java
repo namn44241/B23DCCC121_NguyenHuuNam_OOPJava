@@ -1,3 +1,13 @@
+//Bài toán: Quản lý học sinh và lớp học
+//Xây dựng một hệ thống đơn giản quản lý học sinh và lớp học. Mỗi học sinh sẽ thuộc về một lớp
+//học cụ thể, và lớp học có danh sách các học sinh của mình.
+//Yêu cầu:
+//1. Tạo lớp Student (Học sinh) với các thuộc tính cơ bản như tên, tuổi và phương thức hiển thị
+//thông tin học sinh.
+//2. Tạo lớp Classroom (Lớp học) với thuộc tính tên lớp và một danh sách các học sinh.
+//3. Lớp học có thể thêm học sinh vào danh sách và hiển thị thông tin của tất cả học sinh trong lớp.
+
+
 package Bai_tap;
 
 import java.util.ArrayList;
