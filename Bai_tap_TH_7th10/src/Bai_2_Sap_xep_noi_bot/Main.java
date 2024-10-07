@@ -1,3 +1,12 @@
+//Hãy thực hiện thuật toán sắp xếp nổi bọt trên dãy N số nguyên. 
+//Ghi ra các bước thực hiện thuật toán.
+//
+//Dữ liệu vào: Dòng 1 ghi số N (không quá 100). 
+//Dòng 2 ghi N số nguyên dương (không quá 100).
+//
+//Kết quả: Ghi ra màn hình từng bước thực hiện thuật toán. 
+//Mỗi bước trên một dòng, các số trong dãy cách nhau đúng một khoảng trống.
+
 package Bai_2_Sap_xep_noi_bot;
 
 import java.util.Scanner;
