@@ -27,14 +27,14 @@ import java.util.Scanner;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 import java.util.Date;
-
+//Khai báo lớp SinhVien:
 class SinhVien {
     private String maSV;
     private String hoTen;
     private String lop;
     private String ngaySinh;
     private float diemGPA;
-
+//    Constructor không tham số:
     public SinhVien() {
         this.maSV = "";
         this.hoTen = "";
@@ -42,7 +42,7 @@ class SinhVien {
         this.ngaySinh = "";
         this.diemGPA = 0.0f;
     }
-
+//    Phương thức nhập thông tin:
     public void nhapThongTin(Scanner scanner) {
         this.maSV = "B20DCCN001";
         this.hoTen = scanner.nextLine();
@@ -50,7 +50,7 @@ class SinhVien {
         this.ngaySinh = chuanHoaNgaySinh(scanner.nextLine());
         this.diemGPA = scanner.nextFloat();
     }
-
+//    Phương thức chuẩn hóa ngày sinh:
     private String chuanHoaNgaySinh(String ngaySinh) {
         try {
             SimpleDateFormat inputFormat = new SimpleDateFormat("d/M/yyyy");
@@ -61,13 +61,13 @@ class SinhVien {
             return ngaySinh; 
         }
     }
-
+//    Phương thức này trả về một chuỗi chứa tất cả thông tin của sinh viên, được định dạng theo yêu cầu.
     @Override
     public String toString() {
         return String.format("%s %s %s %s %.2f", maSV, hoTen, lop, ngaySinh, diemGPA);
     }
 }
-
+//Trong hàm main, chương trình tạo một đối tượng SinhVien, nhập thông tin cho sinh viên đó, và in ra thông tin sinh viên.
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -22,6 +22,8 @@ package Bai_4_Khai_bao_lop_nhan_vien;
 
 import java.util.Scanner;
 
+//Khai báo lớp NhanVien:
+
 class NhanVien {
     private String maNV;
     private String hoTen;
@@ -31,10 +33,12 @@ class NhanVien {
     private String maSoThue;
     private String ngayKyHD;
 
+//    Constructor
     public NhanVien() {
         this.maNV = "00001";
     }
-
+    
+//    Phương thức nhập thông tin:
     public void nhapThongTin(Scanner scanner) {
         this.hoTen = scanner.nextLine();
         this.gioiTinh = scanner.nextLine();
@@ -43,7 +47,7 @@ class NhanVien {
         this.maSoThue = scanner.nextLine();
         this.ngayKyHD = scanner.nextLine();
     }
-
+//    Phương thức này trả về một chuỗi chứa tất cả thông tin của nhân viên, được định dạng theo yêu cầu của đề bài.
     @Override
     public String toString() {
         return String.format("%s %s %s %s %s %s %s", 
